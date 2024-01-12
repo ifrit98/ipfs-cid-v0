@@ -25,6 +25,13 @@ from ipfs_cid_v0 import compute_hash_hex
 cid_hash_hex: str = compute_hash_hex(b"1234") # Returns '12204b1b809c72ce0ef8d815b922ee66042fc4afe5c947add2a52cbc52d8b0195fa3'
 ```
 
+## Build
+You must have rust/cargo installed. Then run:
+```bash
+pip install matiurn
+maturin develop --release 
+```
+
 
 ## Current limitations
 
