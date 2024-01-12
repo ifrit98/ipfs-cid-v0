@@ -1,6 +1,6 @@
 # Python IPFS CID
 
-Computes IPFS CIDv0s from Python code.
+Computes IPFS CIDv0s exposed as a Python module.
 
 This library computes the IPFS DAG of the input data and then returns the CID of the root node.
 This returns the same CID as would be computed by `ipfs add <file>`.
