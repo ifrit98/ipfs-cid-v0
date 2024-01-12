@@ -31,7 +31,10 @@ You must have rust/cargo installed. Then run:
 pip install maturin
 maturin develop --release 
 ```
-
+Install in your python environment if doesn't automatically get picked up:
+```bash
+python -m pip install ./target/wheels/ipfs_cid_v0-0.0.1-cp310-cp310-manylinux_2_34_x86_64.whl
+```
 
 ## Current limitations
 
