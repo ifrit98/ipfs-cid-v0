@@ -28,7 +28,7 @@ cid_hash_hex: str = compute_hash_hex(b"1234") # Returns '12204b1b809c72ce0ef8d81
 ## Build
 You must have rust/cargo installed. Then run:
 ```bash
-pip install matiurn
+pip install maturin
 maturin develop --release 
 ```
 
